@@ -1,0 +1,24 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@layer base{
+    @import url('https://fonts.googleapis.com/css2?family=Montez&display=swap');
+    html{
+        font-family: 'Montez', cursive;
+    }
+}
+#root{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url("./assets/ABG.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#card-item{
+    background-image: url("./assets/ABG2.jpg");
+}
